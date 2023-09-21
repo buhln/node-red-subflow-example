@@ -1,0 +1,59 @@
+{
+    "id": "testsubflow",
+    "type": "subflow",
+    "name": "Testsubflow",
+    "info": "",
+    "category": "",
+    "in": [
+        {
+            "x": 380,
+            "y": 160,
+            "wires": []
+        }
+    ],
+    "out": [
+        {
+            "x": 660,
+            "y": 240,
+            "wires": [
+                {
+                    "id": "b162a17b6d3cda34",
+                    "port": 0
+                },
+                {
+                    "id": "f6c5c0739395d41c",
+                    "port": 0
+                }
+            ]
+        }
+    ],
+    "env": [],
+    "meta": {},
+    "color": "#DDAA99",
+    "flow":
+    [
+        {
+            "id": "b162a17b6d3cda34",
+            "type": "inject",
+            "z": "f6c5c0739395d41c",
+            "name": "",
+            "props": [
+                {
+                    "p": "payload"
+                }
+            ],
+            "repeat": "1",
+            "crontab": "",
+            "once": false,
+            "onceDelay": 0.1,
+            "topic": "",
+            "payload": "",
+            "payloadType": "date",
+            "x": 450,
+            "y": 240,
+            "wires": [
+                []
+            ]
+        }
+    ]
+}
